@@ -46,26 +46,5 @@ function stackFunction() {
 
     console.log("stack size:",stack.size());
 
-    const removeOdd = (odd) => {
-        for (let j = 0; j < stack.size(); j++) {
-            if (odd[j] % 2 === 1) {
-                odd.splice(j, 1)
-                break;
-            };
-        };
-        return odd;
-    }
     
-    oddItem = removeOdd(stack.items)
-    console.log(oddItem);
-
-    const duplicateStack = (myStack) => {
-        let duplicate = new Stack();
-        for (let i = 0; i < stack.size(); i++) {
-            duplicate.add(myStack[i]);
-        }
-        return duplicate;
-    }
-    oddItem = duplicateStack(stack.items)
-    console.log("duplicate:",oddItem);
 }
