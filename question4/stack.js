@@ -45,6 +45,4 @@ function stackFunction() {
     console.log("stack is empty:",stack.isEmpty());
 
     console.log("stack size:",stack.size());
-
-    
 }

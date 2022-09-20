@@ -13,7 +13,7 @@ function matrix() {
         for (let j = 0; j < n; j++) {
             matrix1.push(matrix.splice(0, n));
         }
-        console.log("Matrix:", matrix1);
+        console.log("Matrix: ", matrix1);
         let result = matrix1[0].map((_, i) => matrix1.map(row => row[i]));
         console.log("Final output:", result.reverse());
     } else {

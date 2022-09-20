@@ -12,7 +12,7 @@ function frequency() {
 
     for (k in sorting) {
         console.log(sorting[k], [1]);
-        for (var a = 0; a < sorting[k][1]; a++) {
+        for (var i = 0; i < sorting[k][1]; i++) {
             result.push(sorting[k][0]);
         }
     }
